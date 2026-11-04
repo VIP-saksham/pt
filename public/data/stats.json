@@ -1,0 +1,637 @@
+{
+  "generatedAt": "2026-11-02T19:29:13.198Z",
+  "user": {
+    "repos": 55,
+    "publicRepos": 55,
+    "stars": 7,
+    "forks": 6,
+    "followers": 5,
+    "following": 1
+  },
+  "linesOfCode": 257607,
+  "languages": [
+    {
+      "name": "Python",
+      "bytes": 5982895,
+      "lines": 199430,
+      "percent": 75.4,
+      "color": "#3572A5"
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 664941,
+      "lines": 20150,
+      "percent": 8.4,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "Go",
+      "bytes": 565479,
+      "lines": 18849,
+      "percent": 7.1,
+      "color": "#00ADD8"
+    },
+    {
+      "name": "HTML",
+      "bytes": 480985,
+      "lines": 11452,
+      "percent": 6.1,
+      "color": "#e34c26"
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 173933,
+      "lines": 5271,
+      "percent": 2.2,
+      "color": "#3178c6"
+    },
+    {
+      "name": "Shell",
+      "bytes": 60693,
+      "lines": 2168,
+      "percent": 0.8,
+      "color": "#89e051"
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 4004,
+      "lines": 118,
+      "percent": 0.1,
+      "color": "#384d54"
+    },
+    {
+      "name": "CSS",
+      "bytes": 3538,
+      "lines": 126,
+      "percent": 0,
+      "color": "#563d7c"
+    },
+    {
+      "name": "C",
+      "bytes": 781,
+      "lines": 24,
+      "percent": 0,
+      "color": "#555555"
+    },
+    {
+      "name": "Mako",
+      "bytes": 635,
+      "lines": 19,
+      "percent": 0,
+      "color": "#8b8b8b"
+    }
+  ],
+  "topRepos": [
+    {
+      "name": "KeyaraMusic",
+      "stars": 5,
+      "forks": 1,
+      "issues": 3,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/KeyaraMusic",
+      "description": "Powerful Telegram Music Bot Source Code"
+    },
+    {
+      "name": "SpaceWar-1",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/SpaceWar-1",
+      "description": ""
+    },
+    {
+      "name": "CarRacing",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/CarRacing",
+      "description": ""
+    },
+    {
+      "name": "VIP-saksham",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/VIP-saksham",
+      "description": "Config files for my GitHub profile."
+    },
+    {
+      "name": "m2m",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "JavaScript",
+      "url": "https://github.com/VIP-saksham/m2m",
+      "description": ""
+    },
+    {
+      "name": "TrueGram",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/TrueGram",
+      "description": ""
+    }
+  ],
+  "repos": {
+    "vip-saksham": {
+      "name": "VIP-saksham",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/VIP-saksham",
+      "description": "Config files for my GitHub profile."
+    },
+    "m2m": {
+      "name": "m2m",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "JavaScript",
+      "url": "https://github.com/VIP-saksham/m2m",
+      "description": ""
+    },
+    "keyaramusic": {
+      "name": "KeyaraMusic",
+      "stars": 5,
+      "forks": 1,
+      "issues": 3,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/KeyaraMusic",
+      "description": "Powerful Telegram Music Bot Source Code"
+    },
+    "truegram": {
+      "name": "TrueGram",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/TrueGram",
+      "description": ""
+    },
+    "nikopad": {
+      "name": "NikoPad",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/NikoPad",
+      "description": ""
+    },
+    "wordraft-bot": {
+      "name": "wordraft-bot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "TypeScript",
+      "url": "https://github.com/VIP-saksham/wordraft-bot",
+      "description": ""
+    },
+    "baddiexmsuicpro": {
+      "name": "BaddieXmsuicPro",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Go",
+      "url": "https://github.com/VIP-saksham/BaddieXmsuicPro",
+      "description": ""
+    },
+    "aicte-compliance-os": {
+      "name": "aicte-compliance-os",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/aicte-compliance-os",
+      "description": ""
+    },
+    "keyaramusic2.0": {
+      "name": "keyaramusic2.0",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/keyaramusic2.0",
+      "description": ""
+    },
+    "ytapi": {
+      "name": "YTapi",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/YTapi",
+      "description": ""
+    },
+    "api": {
+      "name": "api",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/api",
+      "description": ""
+    },
+    "plusbot": {
+      "name": "PlusBot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/PlusBot",
+      "description": ""
+    },
+    "railway-ubuntu-ssh-claude": {
+      "name": "railway-ubuntu-ssh-claude",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Shell",
+      "url": "https://github.com/VIP-saksham/railway-ubuntu-ssh-claude",
+      "description": "ARA TM — Railway Ubuntu 24.04 SSH server with root access + Claude Code pre-installed. Bilingual (EN/FA), OpenRouter-ready cloud workstation."
+    },
+    "tempmailgenerater": {
+      "name": "TempMailGenerater",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/TempMailGenerater",
+      "description": ""
+    },
+    "sitaramusicbot": {
+      "name": "sitaramusicbot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 3,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/sitaramusicbot",
+      "description": ""
+    },
+    "bakachatbot": {
+      "name": "bakachatbot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/bakachatbot",
+      "description": ""
+    },
+    "trueweb": {
+      "name": "TrueWeb",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/TrueWeb",
+      "description": ""
+    },
+    "bomber": {
+      "name": "Bomber",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/Bomber",
+      "description": ""
+    },
+    "telegram-shop": {
+      "name": "Telegram-shop",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/Telegram-shop",
+      "description": ""
+    },
+    "kurkimusic": {
+      "name": "KurkiMusic",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/KurkiMusic",
+      "description": ""
+    },
+    "vchidder": {
+      "name": "VChidder",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/VChidder",
+      "description": ""
+    },
+    "stringsessionxd": {
+      "name": "StringSessionXD",
+      "stars": 0,
+      "forks": 1,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/StringSessionXD",
+      "description": ""
+    },
+    "testingmusic": {
+      "name": "testingmusic",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/testingmusic",
+      "description": ""
+    },
+    "m2mdemo": {
+      "name": "m2mdemo",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "JavaScript",
+      "url": "https://github.com/VIP-saksham/m2mdemo",
+      "description": ""
+    },
+    "sih-exp": {
+      "name": "sih-exp",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/sih-exp",
+      "description": ""
+    },
+    "arrowpuzzelgame": {
+      "name": "arrowpuzzelgame",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "HTML",
+      "url": "https://github.com/VIP-saksham/arrowpuzzelgame",
+      "description": ""
+    },
+    "webtgbot": {
+      "name": "webtgbot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "HTML",
+      "url": "https://github.com/VIP-saksham/webtgbot",
+      "description": ""
+    },
+    "open-world-bot-project-beta": {
+      "name": "open-world-bot-project-beta",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "HTML",
+      "url": "https://github.com/VIP-saksham/open-world-bot-project-beta",
+      "description": ""
+    },
+    "crushmastergame": {
+      "name": "CrushMasterGame",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "HTML",
+      "url": "https://github.com/VIP-saksham/CrushMasterGame",
+      "description": ""
+    },
+    "block_crushgame": {
+      "name": "block_crushgame",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "HTML",
+      "url": "https://github.com/VIP-saksham/block_crushgame",
+      "description": ""
+    },
+    "unolite": {
+      "name": "Unolite",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "HTML",
+      "url": "https://github.com/VIP-saksham/Unolite",
+      "description": ""
+    },
+    "3d-camera-web": {
+      "name": "3d-camera-web",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "HTML",
+      "url": "https://github.com/VIP-saksham/3d-camera-web",
+      "description": ""
+    },
+    "abusebot": {
+      "name": "AbuseBot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/AbuseBot",
+      "description": ""
+    },
+    "jaddu-bot": {
+      "name": "jaddu-bot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/jaddu-bot",
+      "description": ""
+    },
+    "otp-bot": {
+      "name": "otp-bot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/otp-bot",
+      "description": ""
+    },
+    "numbot": {
+      "name": "numbot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/numbot",
+      "description": ""
+    },
+    "simpsecurtybot": {
+      "name": "simpsecurtybot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/simpsecurtybot",
+      "description": ""
+    },
+    "biolink-protector": {
+      "name": "BioLink-Protector",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/BioLink-Protector",
+      "description": ""
+    },
+    "js_music_wesite": {
+      "name": "js_music_wesite",
+      "stars": 0,
+      "forks": 2,
+      "issues": 0,
+      "language": "JavaScript",
+      "url": "https://github.com/VIP-saksham/js_music_wesite",
+      "description": "🎵 Create a responsive music player web app that offers smooth controls, dynamic song lists, and engaging animations for an enhanced listening experience."
+    },
+    "user-broadcast-bot": {
+      "name": "user-broadcast-bot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/user-broadcast-bot",
+      "description": ""
+    },
+    "user-tag-bot": {
+      "name": "user-tag-bot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/user-tag-bot",
+      "description": ""
+    },
+    "music": {
+      "name": "music",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/music",
+      "description": ""
+    },
+    "shiny": {
+      "name": "SHINY",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/SHINY",
+      "description": ""
+    },
+    "testing": {
+      "name": "testing",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/testing",
+      "description": ""
+    },
+    "rfghiksjcv-": {
+      "name": "rfghiksjcv-",
+      "stars": 0,
+      "forks": 1,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/rfghiksjcv-",
+      "description": ""
+    },
+    "editdetectorbot": {
+      "name": "EditDetectorBot",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/EditDetectorBot",
+      "description": ""
+    },
+    "rain": {
+      "name": "rain",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/rain",
+      "description": ""
+    },
+    "riddhimusic": {
+      "name": "riddhimusic",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/riddhimusic",
+      "description": ""
+    },
+    "starxmusic": {
+      "name": "starxmusic",
+      "stars": 0,
+      "forks": 0,
+      "issues": 1,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/starxmusic",
+      "description": ""
+    },
+    "hellxmusic": {
+      "name": "HellXMusic",
+      "stars": 0,
+      "forks": 1,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/HellXMusic",
+      "description": "# 🎵 HellMusic - Telegram Music Bot 🎧  ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ʙᴏᴛ ꜰᴏʀ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛꜱ | ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ & ᴍᴏʀᴇ |  ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴍᴜꜱɪᴄ ᴘʟᴀʏʙᴀᴄᴋ | ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ & ᴜꜱᴇʀ-ꜰʀɪᴇɴᴅʟʏ |  ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘʏᴛɢᴄᴀʟʟꜱ | ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @isamxyz | ꜱᴜᴘᴘᴏʀᴛ: @hellbotsupport 🎵"
+    },
+    "advanced-physical-design-using-openlane-and-sky130": {
+      "name": "ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-AND-SKY130",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-AND-SKY130",
+      "description": ""
+    },
+    "test": {
+      "name": "Test",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "language": null,
+      "url": "https://github.com/VIP-saksham/Test",
+      "description": "test code"
+    },
+    "spacewar-1": {
+      "name": "SpaceWar-1",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/SpaceWar-1",
+      "description": ""
+    },
+    "carracing": {
+      "name": "CarRacing",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "language": "Python",
+      "url": "https://github.com/VIP-saksham/CarRacing",
+      "description": ""
+    },
+    "web.github.io": {
+      "name": "web.github.io",
+      "stars": 0,
+      "forks": 0,
+      "issues": 1,
+      "language": "HTML",
+      "url": "https://github.com/VIP-saksham/web.github.io",
+      "description": ""
+    }
+  }
+}

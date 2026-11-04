@@ -1,0 +1,16 @@
+export const hiring = {
+  'hiring.badge': '开放合作',
+  'hiring.title': '寻找实习 / 黑客松团队 / 侧项目',
+  'hiring.desc': '开放有趣的项目 —— 尤其是机器人系统、后端和 AI 应用。',
+  'hiring.detail': '乐于承担：Telegram 机器人、后端 API、自动化、部分前端、AI 集成。',
+  'hiring.discount': '印度德里 · 远程友好',
+  'hiring.intern': '也考虑实习。',
+  'hiring.cta': '联系我',
+  'hiring.email': 'pollysmarty11@gmail.com',
+  'hiring.svc.bots': 'Telegram 机器人',
+  'hiring.svc.web': 'Web 应用',
+  'hiring.svc.backend': '后端 API',
+  'hiring.svc.frontend': '前端',
+  'hiring.svc.devops': 'DevOps / CI-CD',
+  'hiring.svc.ai': 'ML / AI 集成',
+} as const;

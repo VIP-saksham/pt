@@ -1,0 +1,16 @@
+export const communities = {
+  'communities.title': 'Сообщества',
+  'communities.subtitle': 'Комьюнити и платформы, где я активен',
+  'communities.suggestHint': 'Я забыл упомянуть какое-то сообщество?',
+  'communities.suggestCta': 'Подсказать сообщество',
+  'communities.search': 'Поиск сообществ…',
+  'communities.noResults': 'По запросу ничего нет.',
+  'communities.kind.community': 'Сообщество',
+  'communities.kind.platform': 'Платформа',
+  'communities.prod.desc': 'Там где сидят интересные люди, которые готовы создать самые космические проекты просто по приколу, и которые подкидывают кучу идей постоянно.',
+  'communities.tbank.desc': 'Образовательная платформа с курсами и студенческим сообществом.',
+  'communities.foxford.desc': 'Онлайн-школа с курсами и репетиторами по математике, физике и информатике.',
+  'communities.github.desc': 'Мои open-source проекты на GitHub — код, открытый для всех.',
+  'communities.tgdev.desc': 'Сообщество разработчиков Telegram-ботов — Bot API, библиотеки и инструменты.',
+  'communities.snackers.desc': 'Самое безумное и крутое сообщество в одном флаконе — не менее сумасшедшее, чем их витюбер, но при этом дружное и поддерживающее. Целый мир в одном месте.',
+} as const;

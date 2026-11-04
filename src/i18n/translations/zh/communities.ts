@@ -1,0 +1,16 @@
+export const communities = {
+  'communities.title': '社区',
+  'communities.subtitle': '我活跃的社区和平台',
+  'communities.suggestHint': '我漏掉了哪个社区吗？',
+  'communities.suggestCta': '推荐社区',
+  'communities.search': '搜索社区…',
+  'communities.noResults': '没有匹配的结果。',
+  'communities.kind.community': '社区',
+  'communities.kind.platform': '平台',
+  'communities.prod.desc': '这里聚集着有趣的人，愿意纯粹为了好玩去创造最天马行空的项目，并不断抛出大量点子。',
+  'communities.tbank.desc': '提供课程与学生社区的教育平台。',
+  'communities.foxford.desc': '一所在线学校平台，提供数学、物理与信息学课程和辅导。',
+  'communities.github.desc': '我在 GitHub 上的开源项目 —— 对所有人开放阅读与使用。',
+  'communities.tgdev.desc': 'Telegram 机器人开发者社区 —— Bot API、库与工具。',
+  'communities.snackers.desc': '最疯狂又最酷的社区合而为一 —— 不亚于他们的 VTuber，却依然友善、温暖、互相支持。整个世界汇聚于此。',
+} as const;

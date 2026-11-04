@@ -1,0 +1,43 @@
+
+> vai-prog-portfolio@3.0.0 build
+> astro build
+
+[2m01:16:24[22m [34m[content][39m Syncing content
+[2m01:16:24[22m [34m[content][39m Synced content
+[2m01:16:25[22m [34m[types][39m Generated [2m5.99s[22m
+[2m01:16:25[22m [34m[build][39m output: [34m"static"[39m
+[2m01:16:25[22m [34m[build][39m mode: [34m"static"[39m
+[2m01:16:25[22m [34m[build][39m directory: [34mC:\Users\user\Downloads\kumir3-core-dev\kumir3-core-dev\Vadim-Khristenko.github.io\dist\[39m
+[2m01:16:25[22m [34m[build][39m Collecting build info...
+[2m01:16:25[22m [34m[build][39m [32m✓ Completed in 6.31s.[39m
+[2m01:16:25[22m [34m[build][39m Building static entrypoints...
+[2m01:16:28[22m [34m[vite][39m [32m✓ built in 2.94s[39m
+[2m01:16:35[22m [34m[vite][39m [32m✓ built in 7.38s[39m
+[2m01:16:35[22m [34m[build][39m Rearranging server assets...
+
+[42m[30m generating static routes [39m[49m
+[2m01:16:36[22m   [34m├─[39m [2m/blog/notanotherwiki/index.html[22m [2m(+89ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/blog/notanotherwiki-en/index.html[22m [2m(+22ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/blog/notanotherwiki-zh/index.html[22m [2m(+21ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/blog/profile-v4/index.html[22m [2m(+22ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/blog/profile-v4-en/index.html[22m [2m(+32ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/blog/profile-v4-zh/index.html[22m [2m(+25ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/blog/reborn/index.html[22m [2m(+27ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/blog/reborn-en/index.html[22m [2m(+24ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/blog/reborn-zh/index.html[22m [2m(+82ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/blog/index.html[22m [2m(+28ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/editor/index.html[22m [2m(+17ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/license/index.html[22m [2m(+23ms)[22m 
+[2m01:16:36[22m   [34m├─[39m [2m/index.html[22m [2m(+22ms)[22m 
+[2m01:16:36[22m [32m✓ Completed in 724ms.
+[39m
+[2m01:16:36[22m [34m[build][39m [32m✓ Completed in 11.47s.[39m
+[2m01:16:36[22m [34m[build][39m 13 page(s) built in [1m17.96s[22m
+[2m01:16:36[22m [34m[build][39m [1mComplete![22m
+
+> vai-prog-portfolio@3.0.0 postbuild
+> node scripts/postbuild.mjs
+
+🌐 github.io site detected — skipping CNAME (user-domain Pages)
+✅ Post-build complete
+EXITCODE:0

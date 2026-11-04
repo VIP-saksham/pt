@@ -1,0 +1,16 @@
+export const hiring = {
+  'hiring.badge': 'Открыт к коллаборациям',
+  'hiring.title': 'Ищу стажировки / команды для хакатонов / сайд-проекты',
+  'hiring.desc': 'Открыт к интересным проектам — особенно бот-системы, бэкенды и AI-приложения.',
+  'hiring.detail': 'Возьмусь за: Telegram-ботов, Backend API, автоматизацию, немного фронтенда, AI-интеграцию.',
+  'hiring.discount': 'Дели, Индия · удалённо комфортно',
+  'hiring.intern': 'Также рассматриваю стажировки.',
+  'hiring.cta': 'Написать',
+  'hiring.email': 'pollysmarty11@gmail.com',
+  'hiring.svc.bots': 'Telegram-боты',
+  'hiring.svc.web': 'Веб-приложения',
+  'hiring.svc.backend': 'Backend API',
+  'hiring.svc.frontend': 'Фронтенд',
+  'hiring.svc.devops': 'DevOps / CI-CD',
+  'hiring.svc.ai': 'ML / AI интеграция',
+} as const;

@@ -1,0 +1,17 @@
+export const about = {
+  'about.title': 'Who am I?',
+  'about.subtitle': 'Student developer turning systems, products and ideas into reality.',
+  'about.desc': "I'm a student developer from Delhi, India, currently pursuing my B.Tech at MAIT. I'm interested in software engineering, AI-powered applications, backend systems, automation, Telegram bots, and infrastructure — and I build projects that mix all of it: hackathon platforms, bot ecosystems, hosting tools and decision-intelligence products.",
+  'about.ml': 'AI & AI Apps',
+  'about.ml.desc': 'GenAI and Agentic AI experiments, AWS Bedrock and other model APIs; OpenCV + PyTorch image-assessment pipelines; LLM-backed assistants with practical local fallbacks.',
+  'about.devops': 'Infra & Cloud',
+  'about.devops.desc': 'VPS hosting and deployment automation: provisioning servers, SSH tooling and pipelines. Hands-on across Azure, AWS, SQL and MongoDB.',
+  'about.exp': 'Backend & Bots',
+  'about.exp.desc': 'Telegram bot engineering: music playback and streaming systems, queues, automation and database-backed settings. Flask and REST backends with real auth flows.',
+  'about.work': 'How I Work',
+  'about.work.desc': 'Start from a working prototype, keep the backend honest, test with real users, then harden the infrastructure around it.',
+  'about.music': 'Currently',
+  'about.music.desc': "SIH 2026 grand finals with AICTE Compliance OS; running the Telegram music-bot family (KeyaraMusic & co.); building the NEXHOST / BotCloud hosting platform in private.",
+  'about.vibes': 'Beyond Code',
+  'about.vibes.desc': 'Clear system design, automation that removes tedious work, and shipping products people actually use.',
+} as const;

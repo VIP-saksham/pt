@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Horizon 2027 — The Jump</title>
+  <meta name="author" content="Saksham Swaroop" />
+  <meta name="description" content="Horizon 2027 — интерактивный порог нового года. Rust · Leptos · WASM." />
+  <meta name="theme-color" content="#05060f" />
+  <link rel="icon" type="image/png" href="/favicon/horizon/favicon-96x96.png?v=2026-07-11" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon/horizon/favicon.svg?v=2026-07-11" />
+  <link rel="shortcut icon" href="/favicon/horizon/favicon.ico?v=2026-07-11" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/horizon/apple-touch-icon.png?v=2026-07-11" />
+  <meta name="apple-mobile-web-app-title" content="HORIZON" />
+  <link rel="manifest" href="/favicon/horizon/site.webmanifest?v=2026-07-11" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Manrope:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="/files/horizon/styles-ccb6f0c609473c98.css" integrity="sha384-VDjQ4Cjn23XDFPRDFwqdpkZBRe3zzIII2L8zh/x10OkPbJClCua5yHK3AKhAnqJV"/>
+  
+<script type="module">
+import init, * as bindings from '/files/horizon/horizon-dac1e5fa4b54b22d.js';
+const wasm = await init({ module_or_path: '/files/horizon/horizon-f19b0130a86c4a80_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+<link rel="modulepreload" href="/files/horizon/horizon-dac1e5fa4b54b22d.js" crossorigin="anonymous" integrity="sha384-srh+YFhv9jT61sDiQ79SYbXFdXMYHO+xD3wMlS/lLWkw+nTe2nJ/4+LDZ4aOQE+Z"><link rel="preload" href="/files/horizon/horizon-f19b0130a86c4a80_bg.wasm" crossorigin="anonymous" integrity="sha384-Qn9renx/8tQog71jcg6+mujVCvo5+w0ocTiL4J2Pcdmezdfxujvfa9FOhFED09Cd" as="fetch" type="application/wasm"></head>
+<body></body>
+</html>

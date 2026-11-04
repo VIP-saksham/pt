@@ -1,0 +1,15 @@
+export const projects = {
+  'projects.title': 'Проекты',
+  'projects.subtitle': 'Каждый проект — это история, как я решаю проблемы и расту как разработчик.',
+  'projects.why': 'Почему эти проекты?',
+  'projects.why.desc': 'Каждый проект решает реальную проблему — платформы для хакатонов, decision intelligence для сельского хозяйства, хостинг-инфраструктура, инженерия музыкальных ботов и бинарноуровневый тулинг редактора.',
+  'projects.viewGithub': 'Все проекты на GitHub',
+  'projects.onGithub': 'на GitHub',
+  'projects.pinnedNote': 'Суммы выше считаются только по закреплённым проектам с этой страницы — полные цифры GitHub смотри в шапке сайта.',
+  'status.live': 'Live',
+  'status.indev': 'В разработке',
+  'status.comingsoon': 'Скоро',
+  'status.ideation': 'Идея',
+  'status.alpha': 'Alpha',
+  'btn.open': 'Открыть →',
+} as const;

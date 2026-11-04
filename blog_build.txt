@@ -1,0 +1,42 @@
+
+> vai-prog-portfolio@3.0.0 build
+> astro build
+
+[2m01:41:16[22m [34m[content][39m Syncing content
+[2m01:41:16[22m [34m[content][39m Content config changed
+[2m01:41:16[22m [34m[content][39m Clearing content store
+[2m01:41:16[22m [34m[content][39m Synced content
+[2m01:41:16[22m [34m[types][39m Generated [2m4.96s[22m
+[2m01:41:16[22m [34m[build][39m output: [34m"static"[39m
+[2m01:41:16[22m [34m[build][39m mode: [34m"static"[39m
+[2m01:41:16[22m [34m[build][39m directory: [34mC:\Users\user\Downloads\kumir3-core-dev\kumir3-core-dev\Vadim-Khristenko.github.io\dist\[39m
+[2m01:41:17[22m [34m[build][39m Collecting build info...
+[2m01:41:17[22m [34m[build][39m [32m✓ Completed in 5.22s.[39m
+[2m01:41:17[22m [34m[build][39m Building static entrypoints...
+[2m01:41:20[22m [34m[vite][39m [32m✓ built in 3.21s[39m
+[2m01:41:28[22m [34m[vite][39m [32m✓ built in 7.70s[39m
+[2m01:41:28[22m [34m[build][39m Rearranging server assets...
+
+[42m[30m generating static routes [39m[49m
+[2m01:41:29[22m   [34m├─[39m [2m/blog/sih2026-en/index.html[22m [2m(+342ms)[22m 
+[2m01:41:29[22m   [34m├─[39m [2m/blog/sih2026-ru/index.html[22m [2m(+184ms)[22m 
+[2m01:41:29[22m   [34m├─[39m [2m/blog/sih2026-zh/index.html[22m [2m(+114ms)[22m 
+[2m01:41:29[22m   [34m├─[39m [2m/blog/welcome-en/index.html[22m [2m(+31ms)[22m 
+[2m01:41:29[22m   [34m├─[39m [2m/blog/welcome-ru/index.html[22m [2m(+13ms)[22m 
+[2m01:41:29[22m   [34m├─[39m [2m/blog/welcome-zh/index.html[22m [2m(+11ms)[22m 
+[2m01:41:29[22m   [34m├─[39m [2m/blog/index.html[22m [2m(+16ms)[22m 
+[2m01:41:29[22m   [34m├─[39m [2m/editor/index.html[22m [2m(+19ms)[22m 
+[2m01:41:29[22m   [34m├─[39m [2m/license/index.html[22m [2m(+17ms)[22m 
+[2m01:41:29[22m   [34m├─[39m [2m/index.html[22m [2m(+22ms)[22m 
+[2m01:41:29[22m [32m✓ Completed in 1.19s.
+[39m
+[2m01:41:29[22m [34m[build][39m [32m✓ Completed in 12.68s.[39m
+[2m01:41:29[22m [34m[build][39m 10 page(s) built in [1m18.12s[22m
+[2m01:41:29[22m [34m[build][39m [1mComplete![22m
+
+> vai-prog-portfolio@3.0.0 postbuild
+> node scripts/postbuild.mjs
+
+🌐 github.io site detected — skipping CNAME (user-domain Pages)
+✅ Post-build complete
+EXITCODE:0

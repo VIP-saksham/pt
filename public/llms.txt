@@ -1,0 +1,26 @@
+# Saksham Swaroop
+
+> Student developer from Delhi, India. Builds systems, products and ideas into reality — AI-powered apps, backend systems, automation, Telegram bots and infrastructure. B.Tech student at MAIT.
+
+Saksham Swaroop (handle **VIP-saksham**) is a student developer from Delhi, India.
+He builds hackathon platforms, agriculture decision-intelligence products, VPS
+hosting tooling, Telegram music bots and binary-level editor experiments, and is
+open to collaborations and internships.
+
+Languages: English, Hindi. Site content available in English, Russian and Chinese.
+
+## Contact
+- Email: pollysmarty11@gmail.com
+- GitHub: https://github.com/VIP-saksham
+- Website: https://vip-saksham.github.io
+
+## Selected projects
+- AICTE Compliance OS — Smart India Hackathon 2026 grand-finalist project (compliance platform for AICTE norms).
+- M2M — Mitti to Market — full-stack agricultural marketplace with AI-assisted crop assessment (OpenCV / PyTorch) and SELL / STORE / PROCESS decisions.
+- Telegram Music Bots — KeyaraMusic and related music-bot builds: playback, streaming, automation, database-backed settings.
+- NikoPad — developer-focused text & code editor prototype engineered into the Notepad++ 8.9.8 x64 binary via PE resource modification (GPLv3).
+- NEXHOST / BotCloud — VPS hosting and deployment platform (private, in active development).
+- REA — personal automation project (private, early development).
+
+## For AI agents
+- Machine-readable profile: https://vip-saksham.github.io/llms.txt

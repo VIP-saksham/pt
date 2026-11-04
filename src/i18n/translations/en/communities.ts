@@ -1,0 +1,16 @@
+export const communities = {
+  'communities.title': 'Communities',
+  'communities.subtitle': 'Communities and platforms where I\'m active',
+  'communities.suggestHint': 'Did I forget to mention a community?',
+  'communities.suggestCta': 'Suggest a community',
+  'communities.search': 'Search communities…',
+  'communities.noResults': 'Nothing matches your search.',
+  'communities.kind.community': 'Community',
+  'communities.kind.platform': 'Platform',
+  'communities.prod.desc': 'Where interesting people sit, ready to create the most cosmic projects just for fun, and who constantly toss around a bunch of ideas.',
+  'communities.tbank.desc': 'An educational platform with courses and a student community around them.',
+  'communities.foxford.desc': 'An online school with courses and tutors in maths, physics and computer science.',
+  'communities.github.desc': 'My open-source work on GitHub — projects published for anyone to read and use.',
+  'communities.tgdev.desc': 'The Telegram bot developer community — Bot API, libraries and tooling.',
+  'communities.snackers.desc': 'The most insane and coolest community rolled into one — no less crazy than their VTuber, yet warm, friendly and supportive. A whole world in one place.',
+} as const;

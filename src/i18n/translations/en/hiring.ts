@@ -1,0 +1,16 @@
+export const hiring = {
+  'hiring.badge': 'Open to collaborations',
+  'hiring.title': 'Looking for internships / hackathon teams / side projects',
+  'hiring.desc': 'Open to interesting projects — especially bot systems, backends and AI-powered apps.',
+  'hiring.detail': 'Happy to take on: Telegram bots, Backend API, automation, some Frontend, AI integration.',
+  'hiring.discount': 'Based in Delhi, India · remote-friendly',
+  'hiring.intern': 'Also considering internships.',
+  'hiring.cta': 'Get in touch',
+  'hiring.email': 'pollysmarty11@gmail.com',
+  'hiring.svc.bots': 'Telegram bots',
+  'hiring.svc.web': 'Web applications',
+  'hiring.svc.backend': 'Backend API',
+  'hiring.svc.frontend': 'Frontend',
+  'hiring.svc.devops': 'DevOps / CI-CD',
+  'hiring.svc.ai': 'ML / AI integration',
+} as const;

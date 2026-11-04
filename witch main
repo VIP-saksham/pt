@@ -1,0 +1,152 @@
+[33m2118cd0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Add complete portfolio website
+ .github/ISSUE_TEMPLATE/config.yml                  |    2 [32m+[m[31m-[m
+ .github/labels.yml                                 |    2 [32m+[m[31m-[m
+ .github/workflows/deploy.yml                       |    4 [32m+[m[31m-[m
+ LICENSE                                            |   30 [32m+[m[31m-[m
+ README.ru.md                                       |   30 [32m+[m[31m-[m
+ README.zh.md                                       |   30 [32m+[m[31m-[m
+ achievement_build.txt                              |   43 [32m+[m
+ astro.config.mjs                                   |    2 [32m+[m[31m-[m
+ blog_build.txt                                     |   42 [32m+[m
+ build_output.txt                                   |   43 [32m+[m
+ design/source-photos/desk-coding.png               |  Bin [31m0[m -> [32m1873120[m bytes
+ design/source-photos/desk-portrait.png             |  Bin [31m0[m -> [32m1846620[m bytes
+ design/source-photos/portrait-square.png           |  Bin [31m0[m -> [32m1755003[m bytes
+ nss_build.txt                                      |   43 [32m+[m
+ package-lock.json                                  | 6043 [32m++++++++++++++++++++[m
+ projects/horizon/Cargo.toml                        |    5 [32m+[m[31m-[m
+ projects/horizon/index.html                        |    2 [32m+[m[31m-[m
+ projects/horizon/src/main.rs                       |    8 [32m+[m[31m-[m
+ projects/justcode/Cargo.toml                       |    5 [32m+[m[31m-[m
+ projects/justcode/src/main.rs                      |    2 [32m+[m[31m-[m
+ projects/terminal/Cargo.lock                       |   18 [32m+[m[31m-[m
+ projects/terminal/Cargo.toml                       |    9 [32m+[m[31m-[m
+ projects/terminal/README.md                        |    2 [32m+[m[31m-[m
+ projects/terminal/index.html                       |    8 [32m+[m[31m-[m
+ projects/terminal/src/main.rs                      |   46 [32m+[m[31m-[m
+ public/.well-known/matrix/client                   |    2 [32m+[m[31m-[m
+ public/.well-known/matrix/server                   |    2 [32m+[m[31m-[m
+ public/CNAME                                       |    2 [32m+[m[31m-[m
+ public/VAI-BANNER.png                              |  Bin [31m642100[m -> [32m0[m bytes
+ public/avatars/saksham.png                         |  Bin [31m0[m -> [32m129766[m bytes
+ public/covers/sih2026.webp                         |  Bin [31m0[m -> [32m105610[m bytes
+ public/covers/welcome.webp                         |  Bin [31m0[m -> [32m111244[m bytes
+ public/data/stats.json                             |  754 [32m+[m[31m--[m
+ public/favicon/apple-touch-icon.png                |  Bin [31m70782[m -> [32m9001[m bytes
+ public/favicon/favicon-96x96.png                   |  Bin [31m22267[m -> [32m3521[m bytes
+ public/favicon/favicon.ico                         |  Bin [31m15086[m -> [32m2621[m bytes
+ public/favicon/favicon.svg                         |    6 [32m+[m[31m-[m
+ public/favicon/horizon/site.webmanifest            |    2 [32m+[m[31m-[m
+ public/favicon/justcode/site.webmanifest           |    2 [32m+[m[31m-[m
+ public/favicon/site.webmanifest                    |   10 [32m+[m[31m-[m
+ public/favicon/terminal/site.webmanifest           |    2 [32m+[m[31m-[m
+ public/favicon/web-app-manifest-192x192.png        |  Bin [31m80440[m -> [32m11181[m bytes
+ public/favicon/web-app-manifest-512x512.png        |  Bin [31m538737[m -> [32m62355[m bytes
+ public/files/horizon/.trunk-lock                   |    0
+ ...1cb3728c9b8f.js => horizon-dac1e5fa4b54b22d.js} |   36 [32m+[m[31m-[m
+ .../files/horizon/horizon-f19b0130a86c4a80_bg.wasm |  Bin [31m0[m -> [32m145082[m bytes
+ .../files/horizon/horizon-fef71cb3728c9b8f_bg.wasm |  Bin [31m147590[m -> [32m0[m bytes
+ public/files/horizon/index.html                    |    8 [32m+[m[31m-[m
+ public/files/justcode/.trunk-lock                  |    0
+ public/files/justcode/index.html                   |    6 [32m+[m[31m-[m
+ .../justcode/justcode-5c70c050719423b2_bg.wasm     |  Bin [31m0[m -> [32m160695[m bytes
+ .../justcode/justcode-82843c7b36c0d06e_bg.wasm     |  Bin [31m163678[m -> [32m0[m bytes
+ ...3c7b36c0d06e.js => justcode-b117a1f5e2c627c.js} |   38 [32m+[m[31m-[m
+ public/files/terminal/.trunk-lock                  |    0
+ public/files/terminal/index.html                   |   14 [32m+[m[31m-[m
+ .../saksham-terminal-4a752894f0d7b1a2_bg.wasm      |  Bin [31m0[m -> [32m184475[m bytes
+ ...7dd.js => saksham-terminal-62d8bd89256256df.js} |   62 [32m+[m[31m-[m
+ .../terminal/vai-terminal-c25783d6398f07dd_bg.wasm |  Bin [31m184619[m -> [32m0[m bytes
+ public/for-ai/AGENTS.md                            |   61 [32m+[m[31m-[m
+ public/for-ai/CLAUDE.md                            |   30 [32m+[m[31m-[m
+ public/llms.txt                                    |   37 [32m+[m[31m-[m
+ public/og/og-banner.jpg                            |  Bin [31m0[m -> [32m107394[m bytes
+ public/robots.txt                                  |    4 [32m+[m[31m-[m
+ public/sitemap.xml                                 |   36 [32m+[m[31m-[m
+ rebuild.txt                                        |   43 [32m+[m
+ scripts/postbuild.mjs                              |   12 [32m+[m[31m-[m
+ scripts/update-stats.mjs                           |    2 [32m+[m[31m-[m
+ src/components/AppEntry.vue                        |    5 [32m+[m[31m-[m
+ src/components/LicenseApp.vue                      |    2 [32m+[m[31m-[m
+ src/components/MainPage.vue                        |    6 [32m+[m[31m-[m
+ src/components/blog/BlogFooter.vue                 |    4 [32m+[m[31m-[m
+ src/components/blog/BlogIndex.vue                  |    2 [32m+[m[31m-[m
+ src/components/blog/BlogPost.vue                   |    2 [32m+[m[31m-[m
+ src/components/macclassic/MacClassicEasterEggs.vue |    4 [32m+[m[31m-[m
+ src/components/macos/MacosEasterEggs.vue           |    4 [32m+[m[31m-[m
+ src/components/sections/CommunitiesSection.vue     |    2 [32m+[m[31m-[m
+ src/components/sections/ContactSection.vue         |  100 [32m+[m[31m-[m
+ src/components/sections/DropsSection.vue           |    9 [32m+[m[31m-[m
+ src/components/sections/FriendsSection.vue         |    2 [32m+[m[31m-[m
+ src/components/sections/HeroSection.vue            |   16 [32m+[m[31m-[m
+ src/components/sections/LicenseSection.vue         |   22 [32m+[m[31m-[m
+ src/components/sections/ProjectsSection.vue        |    2 [32m+[m[31m-[m
+ src/components/ui/Footer.vue                       |    2 [32m+[m[31m-[m
+ src/components/ui/Navigation.vue                   |    2 [32m+[m[31m-[m
+ src/components/welcome/WelcomeScreen.vue           |    2 [32m+[m[31m-[m
+ src/components/win11/Win11EasterEggs.vue           |    8 [32m+[m[31m-[m
+ src/composables/useCachedImg.ts                    |   92 [32m+[m[31m-[m
+ src/content.config.ts                              |    2 [32m+[m[31m-[m
+ src/content/blog/notanotherwiki-en.md              |  140 [31m-[m
+ src/content/blog/notanotherwiki-zh.md              |  140 [31m-[m
+ src/content/blog/notanotherwiki.md                 |  140 [31m-[m
+ src/content/blog/profile-v4-en.md                  |  156 [31m-[m
+ src/content/blog/profile-v4-zh.md                  |  156 [31m-[m
+ src/content/blog/profile-v4.md                     |  156 [31m-[m
+ src/content/blog/reborn-en.md                      |  269 [31m-[m
+ src/content/blog/reborn-zh.md                      |  269 [31m-[m
+ src/content/blog/reborn.md                         |  269 [31m-[m
+ src/content/blog/sih2026-en.md                     |   22 [32m+[m
+ src/content/blog/sih2026-ru.md                     |   22 [32m+[m
+ src/content/blog/sih2026-zh.md                     |   22 [32m+[m
+ src/content/blog/welcome-en.md                     |   24 [32m+[m
+ src/content/blog/welcome-ru.md                     |   24 [32m+[m
+ src/content/blog/welcome-zh.md                     |   24 [32m+[m
+ src/data/achievements.ts                           |   70 [32m+[m[31m-[m
+ src/data/communities.ts                            |   20 [32m+[m[31m-[m
+ src/data/inspirations.ts                           |    2 [32m+[m[31m-[m
+ src/data/labs.ts                                   |    2 [32m+[m[31m-[m
+ src/data/projects.ts                               |  137 [32m+[m[31m-[m
+ src/data/types.ts                                  |    2 [32m+[m[31m-[m
+ src/i18n/translations/en/about.ts                  |   26 [32m+[m[31m-[m
+ src/i18n/translations/en/blog.ts                   |    2 [32m+[m[31m-[m
+ src/i18n/translations/en/communities.ts            |    8 [32m+[m[31m-[m
+ src/i18n/translations/en/drops.ts                  |   19 [32m+[m[31m-[m
+ src/i18n/translations/en/featured.ts               |   31 [32m+[m[31m-[m
+ src/i18n/translations/en/footer.ts                 |    4 [32m+[m[31m-[m
+ src/i18n/translations/en/hero.ts                   |   10 [32m+[m[31m-[m
+ src/i18n/translations/en/hiring.ts                 |   14 [32m+[m[31m-[m
+ src/i18n/translations/en/projects.ts               |    2 [32m+[m[31m-[m
+ src/i18n/translations/en/skills.ts                 |    8 [32m+[m[31m-[m
+ src/i18n/translations/ru/about.ts                  |   26 [32m+[m[31m-[m
+ src/i18n/translations/ru/blog.ts                   |    2 [32m+[m[31m-[m
+ src/i18n/translations/ru/communities.ts            |    8 [32m+[m[31m-[m
+ src/i18n/translations/ru/drops.ts                  |   23 [32m+[m[31m-[m
+ src/i18n/translations/ru/featured.ts               |   31 [32m+[m[31m-[m
+ src/i18n/translations/ru/footer.ts                 |    6 [32m+[m[31m-[m
+ src/i18n/translations/ru/hero.ts                   |   18 [32m+[m[31m-[m
+ src/i18n/translations/ru/hiring.ts                 |   18 [32m+[m[31m-[m
+ src/i18n/translations/ru/projects.ts               |    8 [32m+[m[31m-[m
+ src/i18n/translations/ru/skills.ts                 |    8 [32m+[m[31m-[m
+ src/i18n/translations/zh/about.ts                  |   26 [32m+[m[31m-[m
+ src/i18n/translations/zh/blog.ts                   |    2 [32m+[m[31m-[m
+ src/i18n/translations/zh/communities.ts            |    8 [32m+[m[31m-[m
+ src/i18n/translations/zh/drops.ts                  |   23 [32m+[m[31m-[m
+ src/i18n/translations/zh/featured.ts               |   31 [32m+[m[31m-[m
+ src/i18n/translations/zh/footer.ts                 |    6 [32m+[m[31m-[m
+ src/i18n/translations/zh/hero.ts                   |   26 [32m+[m[31m-[m
+ src/i18n/translations/zh/hiring.ts                 |   14 [32m+[m[31m-[m
+ src/i18n/translations/zh/projects.ts               |   12 [32m+[m[31m-[m
+ src/i18n/translations/zh/skills.ts                 |   14 [32m+[m[31m-[m
+ src/layouts/BaseLayout.astro                       |   57 [32m+[m[31m-[m
+ src/pages/blog/[slug].astro                        |    2 [32m+[m[31m-[m
+ src/pages/blog/index.astro                         |    6 [32m+[m[31m-[m
+ src/pages/editor/index.astro                       |   14 [32m+[m[31m-[m
+ src/pages/license.astro                            |    4 [32m+[m[31m-[m
+ src/stores/preferences.ts                          |    2 [32m+[m[31m-[m
+ src/styles/main.css                                |    2 [32m+[m[31m-[m
+ src/styles/themes/win95-dark.css                   |    2 [32m+[m[31m-[m
+ src/styles/themes/win95.css                        |    2 [32m+[m[31m-[m
+ tests/build-check.mjs                              |   10 [32m+[m[31m-[m
+ tests/img-cache.test.ts                            |    2 [32m+[m[31m-[m
+ 150 files changed, 7572 insertions(+), 2911 deletions(-)

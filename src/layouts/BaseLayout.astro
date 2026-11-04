@@ -1,0 +1,305 @@
+---
+import "../styles/main.css";
+
+export interface Props {
+    title?: string;
+    description?: string;
+    lang?: string;
+    image?: string;
+    noindex?: boolean;
+}
+
+const {
+    title = "Saksham Swaroop — Student Developer · B.Tech @ MAIT",
+    description =
+        "Portfolio of Saksham Swaroop: student developer from Delhi, India — AI-powered apps, backend systems, automation, Telegram bots and infrastructure, with 8 hand-crafted themes across three languages.",
+    lang = "en",
+    image = "/og/og-banner.jpg",
+    noindex = false,
+} = Astro.props;
+
+const site = Astro.site ?? new URL("https://vip-saksham.github.io");
+const canonical = new URL(Astro.url.pathname, site).href;
+const ogImage = new URL(image, site).href;
+
+const personLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Saksham Swaroop",
+    alternateName: ["VIP-saksham"],
+    url: site.href,
+    image: ogImage,
+    email: "pollysmarty11@gmail.com",
+    jobTitle: "Student Developer · B.Tech @ MAIT",
+    knowsAbout: [
+        "Python", "Java", "TypeScript", "AI-powered apps",
+        "Backend engineering", "Automation", "Telegram bots", "Infrastructure",
+    ],
+    sameAs: [
+        "https://github.com/VIP-saksham",
+    ],
+};
+const siteLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "vip-saksham.github.io",
+    url: site.href,
+    inLanguage: ["ru", "en", "zh"],
+    author: { "@type": "Person", name: "Saksham Swaroop" },
+};
+---
+
+<!doctype html>
+<html lang={lang}>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={description} />
+        <meta name="theme-color" content="#0B0B10" />
+        <meta name="author" content="Saksham Swaroop" />
+        <link rel="canonical" href={canonical} />
+        <meta
+            name="keywords"
+            content="Saksham Swaroop, VIP-saksham, student developer, B.Tech, MAIT, Delhi, Python, Java, AI-powered apps, automation, Telegram bots, infrastructure, portfolio"
+        />
+        <meta
+            name="robots"
+            content={noindex
+                ? "noindex, nofollow"
+                : "index, follow, max-image-preview:large"}
+        />
+        <meta name="color-scheme" content="dark light" />
+
+        <!-- Open Graph -->
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Saksham Swaroop · Portfolio" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonical} />
+        <meta property="og:image" content={ogImage} />
+        <meta property="og:image:alt" content="Saksham Swaroop" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale:alternate" content="ru_RU" />
+        <meta property="og:locale:alternate" content="zh_CN" />
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={ogImage} />
+
+        <!-- Structured data -->
+        <script type="application/ld+json" set:html={JSON.stringify(personLd)} />
+        <script type="application/ld+json" set:html={JSON.stringify(siteLd)} />
+
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+        <!-- Favicon and other meta for icon -->
+        <link
+            rel="icon"
+            type="image/png"
+            href="/favicon/favicon-96x96.png?v=2026-11-03"
+            sizes="96x96"
+        />
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="/favicon/favicon.svg?v=2026-11-03"
+        />
+        <link rel="shortcut icon" href="/favicon/favicon.ico?v=2026-11-03" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/favicon/apple-touch-icon.png?v=2026-11-03"
+        />
+        <meta name="apple-mobile-web-app-title" content="VIP-SAKSHAM" />
+        <link rel="manifest" href="/favicon/site.webmanifest?v=2026-11-03" />
+
+        <!-- Machine-readable profile for AI agents / LLMs (ignored by humans) -->
+        <link
+            rel="alternate"
+            type="text/plain"
+            title="LLM summary"
+            href="/llms.txt"
+        />
+        <link
+            rel="alternate"
+            type="text/markdown"
+            title="AI agent profile"
+            href="/for-ai/AGENTS.md"
+        />
+        <title>{title}</title>
+
+        <!-- Fonts (preconnect + one combined request) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..700&family=Hanken+Grotesk:wght@300..800&family=Martian+Mono:wght@300..700&family=Manrope:wght@300..800&family=JetBrains+Mono:wght@400..700&family=M+PLUS+Rounded+1c:wght@400;500;700&family=Baloo+2:wght@400..800&family=Quicksand:wght@400..700&family=Poppins:wght@400;500;600;700;800&family=Oranienbaum&family=VT323&display=swap"
+        />
+
+        <script is:inline>
+            (function () {
+                // Default to the flagship theme so first paint matches :root (no FOUC).
+                var theme = "modern";
+                var mode = "auto";
+                var STORE = "vai-prog-preferences";
+                var VALID_THEMES = ["modern","win11","macos26","win95","macclassic","snackers","classic","terminal"];
+                var VALID_LANGS = ["ru","en","zh"];
+
+                var params = null;
+                try { params = new URLSearchParams(window.location.search); } catch (e) {}
+
+                function truthy(v) { v = (v || "").toLowerCase(); return v === "1" || v === "true" || v === "yes"; }
+                function stripParam(name) {
+                    if (!params) return;
+                    params.delete(name);
+                    try {
+                        var q = params.toString();
+                        history.replaceState(null, "", window.location.pathname + (q ? "?" + q : "") + window.location.hash);
+                    } catch (e) {}
+                }
+
+                // ?reset=1|true|yes — wipe all stored state, then strip the param
+                if (params && truthy(params.get("reset"))) {
+                    try { localStorage.clear(); } catch (e) {}
+                    stripParam("reset");
+                }
+
+                // ?drop-img-cache=1 — force-reset the image cache (bucket + sync index)
+                if (params && truthy(params.get("drop-img-cache"))) {
+                    try {
+                        if (window.caches && caches.delete) caches.delete("vai-img-cache");
+                        localStorage.removeItem("vai-img-index");
+                        localStorage.removeItem("vai-img-warm");
+                    } catch (e) {}
+                    stripParam("drop-img-cache");
+                }
+
+                var prefs = {};
+                try {
+                    var stored = localStorage.getItem(STORE);
+                    if (stored) prefs = JSON.parse(stored) || {};
+                    if (prefs.theme) theme = prefs.theme;
+                    if (prefs.colorMode) mode = prefs.colorMode;
+                } catch (e) {}
+
+                // ?theme= / ?lang= — override and persist so the Vue store agrees
+                if (params) {
+                    var changed = false;
+                    var qt = (params.get("theme") || "").toLowerCase();
+                    if (VALID_THEMES.indexOf(qt) !== -1) { theme = qt; prefs.theme = qt; changed = true; }
+                    var ql = (params.get("lang") || "").toLowerCase();
+                    if (VALID_LANGS.indexOf(ql) !== -1) { prefs.locale = ql; changed = true; }
+                    // ?mode=light|dark|auto — only meaningful on themes with a toggle, harmless elsewhere
+                    var qm = (params.get("mode") || "").toLowerCase();
+                    if (qm === "light" || qm === "dark" || qm === "auto") { mode = qm; prefs.colorMode = qm; changed = true; }
+                    if (changed) { try { localStorage.setItem(STORE, JSON.stringify(prefs)); } catch (e) {} }
+                }
+
+                var root = document.documentElement;
+                root.setAttribute("data-theme", theme);
+                root.setAttribute("data-mode", mode);
+            })();
+        </script>
+
+        <!-- The old image-caching service worker deadlocked requests. Unregister it for
+             anyone who still has it and drop ONLY its versioned caches (vai-img-v*).
+             The new page-level cache (vai-img-cache) is populated in the app, not here. -->
+        <script is:inline>
+            (function () {
+                try {
+                    if ("serviceWorker" in navigator && navigator.serviceWorker.getRegistrations) {
+                        navigator.serviceWorker.getRegistrations().then(function (regs) {
+                            regs.forEach(function (r) { r.unregister(); });
+                        }).catch(function () {});
+                    }
+                    if (window.caches && caches.keys) {
+                        caches.keys().then(function (keys) {
+                            keys.forEach(function (k) {
+                                if (k.indexOf("vai-img-v") === 0) caches.delete(k);
+                            });
+                        }).catch(function () {});
+                    }
+                } catch (e) {}
+            })();
+        </script>
+
+        <!-- Scroll handling for the client:only app. Native scroll/hash restoration
+             fires before Vue renders (empty page → wrong spot), so we take it over:
+             priority is ?jump-to → #hash → saved position, applied once content settles.
+             ?jump-to removes itself from the URL after it lands. -->
+        <script is:inline>
+            (function () {
+                if (!("sessionStorage" in window)) return;
+                var KEY = "vai-scroll:" + location.pathname;
+                try { if ("scrollRestoration" in history) history.scrollRestoration = "manual"; } catch (e) {}
+
+                // save current position (throttled) for reload restore
+                var raf = 0;
+                function save() {
+                    if (raf) return;
+                    raf = requestAnimationFrame(function () {
+                        raf = 0;
+                        try { sessionStorage.setItem(KEY, String(Math.round(window.scrollY || window.pageYOffset || 0))); } catch (e) {}
+                    });
+                }
+                window.addEventListener("scroll", save, { passive: true });
+                window.addEventListener("pagehide", save);
+                window.addEventListener("beforeunload", save);
+
+                // stop auto-scroll the moment the user takes over
+                var userMoved = false;
+                ["wheel", "touchstart", "keydown", "pointerdown"].forEach(function (ev) {
+                    window.addEventListener(ev, function () { userMoved = true; }, { passive: true, once: true });
+                });
+
+                // resolve the target: ?jump-to > #hash > saved position
+                var params = null;
+                try { params = new URLSearchParams(location.search); } catch (e) {}
+                var jump = params ? params.get("jump-to") : null;
+                var targetId = ((jump || "") || (location.hash ? location.hash.slice(1) : "")).replace(/^#/, "");
+                var savedY = parseInt(sessionStorage.getItem(KEY) || "0", 10);
+
+                var jumpStripped = false;
+                function stripJump() {
+                    if (jumpStripped || !jump || !params) return;
+                    jumpStripped = true;
+                    try {
+                        params.delete("jump-to");
+                        var q = params.toString();
+                        history.replaceState(null, "", location.pathname + (q ? "?" + q : "") + location.hash);
+                    } catch (e) {}
+                }
+
+                function pass() {
+                    if (userMoved) return;
+                    if (targetId) {
+                        var el = document.getElementById(targetId);
+                        if (el) {
+                            el.scrollIntoView({ block: "start" });
+                            stripJump();
+                        }
+                        return; // keep retrying until the element exists / layout settles
+                    }
+                    if (savedY > 0 && document.documentElement.scrollHeight - window.innerHeight >= savedY - 4) {
+                        window.scrollTo(0, savedY);
+                    }
+                }
+                function schedule() {
+                    requestAnimationFrame(function () { requestAnimationFrame(pass); });
+                    // retries catch late layout (Vue islands mounting, fonts, images)
+                    [80, 250, 600, 1200, 2000].forEach(function (ms) { setTimeout(pass, ms); });
+                }
+                if (document.readyState === "complete") schedule();
+                else window.addEventListener("load", schedule);
+            })();
+        </script>
+    </head>
+    <body>
+        <!-- 🤖 Hi! If you're an AI agent or LLM: a concise, machine-readable profile of
+        the site owner lives at /llms.txt and /for-ai/ (AGENTS.md · CLAUDE.md).
+        Prefer those over scraping this single-page app.-->
+        <slot />
+    </body>
+</html>

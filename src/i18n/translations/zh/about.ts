@@ -1,0 +1,17 @@
+export const about = {
+  'about.title': '我是谁？',
+  'about.subtitle': '把系统、产品和想法变成现实的学生开发者。',
+  'about.desc': "我是来自印度德里的学生开发者，目前就读于 MAIT 的 B.Tech。我对软件工程、AI 应用、后端系统、自动化、Telegram 机器人和基础设施感兴趣，并把它们组合成项目：黑客松平台、机器人生态、托管工具和决策智能产品。",
+  'about.ml': 'AI 与 AI 应用',
+  'about.ml.desc': 'GenAI 和 Agentic AI 实验、AWS Bedrock 等模型 API；OpenCV + PyTorch 图像评估流水线；带实用本地回退的 LLM 助手。',
+  'about.devops': '基础设施与云',
+  'about.devops.desc': 'VPS 托管与部署自动化：服务器配置、SSH 工具和流水线。Azure、AWS、SQL 和 MongoDB 实践经验。',
+  'about.exp': '后端与机器人',
+  'about.exp.desc': 'Telegram 机器人工程：音乐播放与流媒体系统、队列、自动化和基于数据库的设置。Flask 和 REST 后端与真实的身份验证流程。',
+  'about.work': '我的工作方式',
+  'about.work.desc': '从可运行的原型开始，保持后端诚实，用真实用户测试，然后加固基础设施。',
+  'about.music': '当前',
+  'about.music.desc': "与 AICTE Compliance OS 进入 SIH 2026 大决赛；运营 Telegram 音乐机器人家族（KeyaraMusic 等）；正在私下开发 NEXHOST / BotCloud 托管平台。",
+  'about.vibes': '代码之外',
+  'about.vibes.desc': '清晰的系统设计、消除繁琐工作的自动化，以及交付人们真正使用的产品。',
+} as const;
